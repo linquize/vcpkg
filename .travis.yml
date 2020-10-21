@@ -1,0 +1,13 @@
+language: cpp
+
+compiler: gcc
+
+arch: arm64
+
+dist: focal
+
+install: sudo apt-get update && sudo apt-get install -y ninja-build zip unzip
+
+script:
+  - ./bootstrap-vcpkg.sh -useSystemBinaries
+  - VCPKG_FORCE_SYSTEM_BINARIES=1 ./vcpkg install protobuf:arm64-linux
