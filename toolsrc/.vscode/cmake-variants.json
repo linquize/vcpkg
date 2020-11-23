@@ -1,0 +1,15 @@
+{
+    "buildDir": {
+        "default": "build.deb",
+        "choices": {
+            "build.deb": {
+                "short": "Debug",
+                "buildType": "Debug"
+            },
+            "build.rel": {
+                "short": "Release",
+                "buildType": "Release"
+            }
+        }
+    }
+}

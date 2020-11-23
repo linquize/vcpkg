@@ -290,6 +290,7 @@ __pycache__/
 /installed*/
 /packages/
 /scripts/buildsystems/tmp/
+/toolsrc/build.deb/
 /toolsrc/build.rel/
 /toolsrc/windows-bootstrap/msbuild.x86.debug/
 /toolsrc/windows-bootstrap/msbuild.x86.release/
