@@ -1,0 +1,10 @@
+{
+  "name": "xlsxio",
+  "version-string": "0.2.29",
+  "description": "xlsxio is a cross-platform C library for reading values from and writing values to .xlsx files",
+  "homepage": "https://github.com/brechtsanders/xlsxio",
+  "dependencies": [
+    "expat",
+    "minizip"
+  ]
+}
